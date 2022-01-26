@@ -7,68 +7,80 @@
     <title>Landing Page</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,400;1,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css" media="screen">
 </head>
 <body>
     <header>
-        <nav class="navbar">
-            <a href="index.html" class="logo-link"><h3 class="logo-text">Logo Here</h3></a>
-            <ul class="nav-links">
-                <li class="nav-link"><a class="nav-a" href="#">header link one</a></li>
-                <li class="nav-link"><a class="nav-a" href="#">header link two</a></li>
-                <li class="nav-link"><a class="nav-a" href="#">header link three</a></li>
-            </ul>
+        <nav class="navbar-bkg">
+            <div class="navbar-content">
+                <a href="index.html" class="logo-link"><h3 class="logo-text">IceCream Inc.</h3></a>
+                <ul class="nav-links">
+                    <li class="nav-link"><a class="nav-a" href="#">About</a></li>
+                    <li class="nav-link"><a class="nav-a" href="#">Find us</a></li>
+                    <li class="nav-link"><a class="nav-a" href="#">Ice-news weekly</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
 
     <body>
-        <section class="hero">
-            <div class="hero-left">
-                <h1 class="hero-title">This website is awesome</h1>
-                <p class="hero-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, qui.</p>
-                <button class="hero-button"><a class="hero-a" href="#">Sign up</a></button>
-            </div>
-            <div class="hero-right">
-                <img class="hero-img" src="./images/food-truck.jpg" alt="ice cream truck">
+        <section class="hero-bkg">
+            <div class="hero-content">
+                <div class="hero-left">
+                    <h1 class="hero-title">Your friendly neighborhood ice cream van!</h1>
+                    <p class="hero-text">Bonbon sesame snaps pudding jelly chocolate bar macaroon topping candy gummies</p>
+                    <a class="hero-button button" href="#">Find us</a>
+                </div>
+                <div class="hero-right">
+                    <img class="hero-img" src="./images/food-truck.svg" alt="ice cream truck">
+                </div>
             </div>
         </section>
         <section class="presentation-cards">
-            <h2 class="presentation-title">Some random information.</h2>
+            <h2 class="presentation-title">Mouth-watering flavors.</h2>
             <div class="cards">
                 <div class="card">
-                    <img src="./images/food-truck.jpg" alt="#">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, iure!</p>
+                    <img src="./images/ice-cream-1.png" alt="#">
+                    <p>Sweet cake bonbon croissant I love sesame snaps. Fruitcake cake ice cream macaroon chocolate cake cupcake.</p>
                 </div>
                 <div class="card">
-                    <img src="./images/food-truck.jpg" alt="#">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, reprehenderit.</p>
+                    <img src="./images/ice-cream-2.png" alt="#">
+                    <p>Cheesecake marzipan marshmallow icing cookie jelly-o icing. Pie bonbon donut bear claw sweet.</p>
                 </div>
                 <div class="card">
-                    <img src="./images/food-truck.jpg" alt="#">
-                    <p>Lorem ipsum dolor sit amet.</p>
+                    <img src="./images/ice-cream-3.png" alt="#">
+                    <p>Lemon drops oat cake macaroon donut chupa chups chocolate bar.</p>
                 </div>
                 <div class="card">
-                    <img src="./images/food-truck.jpg" alt="#">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem.</p>
+                    <img src="./images/ice-cream-4.png" alt="#">
+                    <p>Shortbread cake liquorice tart donut macaroon cheesecake. Halvah marzipan candy canes tart lollipop dessert jelly beans cheesecake.</p>
                 </div>
             </div>
         </section>
-        <section class="testimonial">
-            <p class="testiomonial-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto sunt ipsum obcaecati exercitationem autem laudantium minima quod veritatis mollitia quisquam.</p>
-            <p class="testimonial-source">-One of our clients</p>
-        </section>
-        <section class="cta">
-            <div class="cta-content">
-                <h2>Call to action! It's time!</h2>
-                <p class="cta-text">Sign up for our product by clicking that button right over there!</p>
+        <section class="testimonial-bkg">
+            <div class="testimonial-content">
+                <p class="testiomonial-text">It takes approximately 50 licks to finish an average ice cream.</p>
+                <p class="testimonial-source">-One of our clients</p>
             </div>
-            <button class="cta-button"><a href="#">Sign up</a></button>
+        </section>
+        <section class="cta-section">
+            <div class="cta">
+                <div class="cta-text">
+                    <h2>Sign up for Ice-news weekly!</h2>
+                    <p>Sign up to receive our van's future locations as well as our newest recipes!</p>
+                </div>
+                <a href="#" class="cta-button button">Sign up</a>
+            </div>
         </section>
     </body>
 
     <footer>
-        <p class="footer-copyright">Copyright The Odin Project 2021</p>
+        <a class="footer-copyright" href="https://github.com/raresdiaconu" target="_blank">
+            <img class="footer-logo" src="images/GitHub-Mark-32px.png" alt="portfolio link">
+            <p>Copyright Rareș Diaconu 2022</p> 
+        </a>
+        <a href="http://www.freepik.com">Illustrations from Freepik/pch.vector</a>
     </footer>
 </body>
 </html>
