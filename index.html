@@ -5,8 +5,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen">
 </head>
 <body>
-    
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo-link"><h3 class="logo-text">Logo Here</h3></a>
+            <ul class="nav-links">
+                <li class="nav-link"><a class="nav-a" href="#">header link one</a></li>
+                <li class="nav-link"><a class="nav-a" href="#">header link two</a></li>
+                <li class="nav-link"><a class="nav-a" href="#">header link three</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <body>
+        <section class="hero">
+            <div class="hero-left">
+                <h1 class="hero-title">This website is awesome</h1>
+                <p class="hero-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, qui.</p>
+                <button class="hero-button"><a class="hero-a" href="#">Sign up</a></button>
+            </div>
+            <div class="hero-right">
+                <img class="hero-img" src="./images/food-truck.jpg" alt="ice cream truck">
+            </div>
+        </section>
+        <section class="presentation-cards">
+            <h2 class="presentation-title">Some random information.</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="./images/food-truck.jpg" alt="#">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, iure!</p>
+                </div>
+                <div class="card">
+                    <img src="./images/food-truck.jpg" alt="#">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, reprehenderit.</p>
+                </div>
+                <div class="card">
+                    <img src="./images/food-truck.jpg" alt="#">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="card">
+                    <img src="./images/food-truck.jpg" alt="#">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem.</p>
+                </div>
+            </div>
+        </section>
+        <section class="testimonial">
+            <p class="testiomonial-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto sunt ipsum obcaecati exercitationem autem laudantium minima quod veritatis mollitia quisquam.</p>
+            <p class="testimonial-source">-One of our clients</p>
+        </section>
+        <section class="cta">
+            <div class="cta-content">
+                <h2>Call to action! It's time!</h2>
+                <p class="cta-text">Sign up for our product by clicking that button right over there!</p>
+            </div>
+            <button class="cta-button"><a href="#">Sign up</a></button>
+        </section>
+    </body>
+
+    <footer>
+        <p class="footer-copyright">Copyright The Odin Project 2021</p>
+    </footer>
 </body>
 </html>
